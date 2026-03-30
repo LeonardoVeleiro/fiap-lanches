@@ -97,6 +97,22 @@ srs.adicionar_rf(RequisitoFuncional(
     "Pagamento aprovado"
 ))
 
+srs.adicionar_rf(RequisitoFuncional(
+    "RF-04", "Histórico de pedidos",
+    "Permitir que o usuário visualize pedidos anteriores.",
+    Prioridade.MEDIA, "Cliente",
+    "Usuário logado",
+    "Histórico exibido"
+))
+
+srs.adicionar_rf(RequisitoFuncional(
+    "RF-05", "Cancelamento de pedido",
+    "Permitir cancelar pedidos antes do preparo.",
+    Prioridade.MEDIA, "Cliente",
+    "Pedido realizado",
+    "Pedido cancelado"
+))
+
 # ---- Requisitos Não Funcionais ----
 srs.adicionar_rnf(RequisitoNaoFuncional(
     "RNF-01", "Usabilidade",
@@ -116,20 +132,6 @@ srs.adicionar_rnf(RequisitoNaoFuncional(
     "Uso de TLS"
 ))
 
-srs.adicionar_rf(RequisitoFuncional(
-    "RF-04", "Histórico de pedidos",
-    "Permitir que o usuário visualize pedidos anteriores.",
-    Prioridade.MEDIA, "Cliente",
-    "Usuário logado",
-    "Histórico exibido"
-))
 
-srs.adicionar_rf(RequisitoFuncional(
-    "RF-05", "Cancelamento de pedido",
-    "Permitir cancelar pedidos antes do preparo.",
-    Prioridade.MEDIA, "Cliente",
-    "Pedido realizado",
-    "Pedido cancelado"
-))
 # ---- Gerar relatório ----
 srs.relatorio()
