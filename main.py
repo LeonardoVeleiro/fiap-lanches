@@ -80,3 +80,10 @@ srs.adicionar_rf(RequisitoFuncional(
     pre_condicao="Usuário possuir vínculo ativo com a FIAP",
     pos_condicao="Acesso liberado às funcionalidades do app"
 ))
+srs.adicionar_rf(RequisitoFuncional(
+    id="RF-02", nome="Exibição de Cardápio",
+    descricao="Exibir o cardápio completo de forma categorizada com fotos e preços.",
+    prioridade=Prioridade.ALTA, ator="Cliente",
+    pre_condicao="Estar logado no sistema",
+    pos_condicao="Visualização dos itens disponíveis para compra"
+))
