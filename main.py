@@ -101,3 +101,12 @@ srs.adicionar_rf(RequisitoFuncional(
     pre_condicao="Estar logado como Gerente",
     pos_condicao="Item removido instantaneamente da visão do cliente"
 ))
+srs.adicionar_rf(RequisitoFuncional(
+    id="RF-05", nome="Múltiplos Meios de Pagamento",
+    descricao="Processar pagamentos via Cartão de Crédito/Débito, PIX e Vale-Alimentação.",
+    prioridade=Prioridade.ALTA, ator="Cliente",
+    pre_condicao="Ter itens no carrinho e prosseguir para checkout",
+    pos_condicao="Pagamento aprovado e pedido gerado"
+))
+
+
