@@ -178,3 +178,10 @@ srs.adicionar_rnf(RequisitoNaoFuncional(
     prioridade=Prioridade.ALTA, # Prioridade Alta
     criterio_aceitacao="Uso de TLS 1.3 e conformidade básica com LGPD/PCI-DSS."
 ))
+
+srs.adicionar_rnf(RequisitoNaoFuncional(
+    id="RNF-04", categoria="Disponibilidade",
+    descricao="Suportar alto volume de acessos simultâneos sem queda durante os 20 min de intervalo.",
+    prioridade=Prioridade.ALTA, # Prioridade Alta
+    criterio_aceitacao="Teste de carga validando 5.000 requisições simultâneas sem timeout."
+))
