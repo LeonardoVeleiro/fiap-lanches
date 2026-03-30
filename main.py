@@ -1,5 +1,5 @@
 # ============================================================
-# SRS em Python — Projeto: FIAP Lanches
+# SRS em Python — Projeto: FIAP Lanches - Gustavo Cheng
 # ============================================================
 
 from dataclasses import dataclass, field
