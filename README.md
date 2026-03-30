@@ -51,8 +51,8 @@ Este script é focado na Engenharia de Software do projeto, gerando o documento 
 Você pode executar este projeto no **Google Colab** ou em um **ambiente Python local**.
 
 **Para rodar o Aplicativo da Cantina (Versão 1.0):**
-1. Copie o código do arquivo `main.py` para a sua IDE.
-2. Execute o script no terminal: `python main.py`
+1. Copie o código do arquivo `app.py` para a sua IDE.
+2. Execute o script no terminal: `python app.py`
 3. Siga as instruções do menu interativo para navegar entre os módulos de Cliente e Gerente.
 
 **Para rodar o Relatório de Requisitos (SRS):**
