@@ -109,4 +109,13 @@ srs.adicionar_rf(RequisitoFuncional(
     pos_condicao="Pagamento aprovado e pedido gerado"
 ))
 
+srs.adicionar_rf(RequisitoFuncional(
+    id="RF-06", nome="Notificações de Status",
+    descricao="Enviar notificações (Push) do status do pagamento e preparo do pedido.",
+    prioridade=Prioridade.MEDIA, ator="Sistema",
+    pre_condicao="Pedido realizado e com mudança de status na cozinha",
+    pos_condicao="Cliente alertado em seu dispositivo"
+))
+
+
 
