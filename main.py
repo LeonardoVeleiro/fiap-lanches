@@ -98,11 +98,11 @@ srs.adicionar_rf(RequisitoFuncional(
 ))
 
 srs.adicionar_rf(RequisitoFuncional(
-    "RF-04", "Histórico de pedidos",
-    "Permitir que o usuário visualize pedidos anteriores.",
-    Prioridade.MEDIA, "Cliente",
-    "Usuário logado",
-    "Histórico exibido"
+    "RF-04", "Gestão de Estoque",
+    "Permitir que a cantina desative pratos que estão em falta no dia.",
+    Prioridade.ALTA, "Gerente",
+    "Gerente logado no sistema",
+    "Item indisponível não aparece no cardápio"
 ))
 
 srs.adicionar_rf(RequisitoFuncional(
