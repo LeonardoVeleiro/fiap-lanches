@@ -94,3 +94,10 @@ srs.adicionar_rf(RequisitoFuncional(
     pre_condicao="Permissão de GPS concedida no app",
     pos_condicao="Cardápio filtrado para a unidade atual"
 ))
+srs.adicionar_rf(RequisitoFuncional(
+    id="RF-04", nome="Gestão de Estoque Diário",
+    descricao="Permitir que a cantina desative pratos que estão em falta no dia.",
+    prioridade=Prioridade.ALTA, ator="Gerente",
+    pre_condicao="Estar logado como Gerente",
+    pos_condicao="Item removido instantaneamente da visão do cliente"
+))
