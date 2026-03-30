@@ -157,3 +157,10 @@ srs.adicionar_rf(RequisitoFuncional(
     pos_condicao="Cozinha visualiza a ordem correta de preparo"
 ))
 
+# --- Adicionando os Requisitos Não-Funcionais (RNF) ---
+srs.adicionar_rnf(RequisitoNaoFuncional(
+    id="RNF-01", categoria="Usabilidade",
+    descricao="O fluxo para repetir um pedido anterior deve exigir no máximo 4 cliques.",
+    prioridade=Prioridade.MEDIA, # Prioridade Média
+    criterio_aceitacao="Teste de usabilidade com usuário concluindo a tarefa em < 15 segundos."
+))
