@@ -171,3 +171,10 @@ srs.adicionar_rnf(RequisitoNaoFuncional(
     prioridade=Prioridade.MEDIA, # Prioridade Média
     criterio_aceitacao="Latência medida via WebSockets inferior a 2000ms."
 ))
+
+srs.adicionar_rnf(RequisitoNaoFuncional(
+    id="RNF-03", categoria="Segurança",
+    descricao="Dados de pagamento devem ser criptografados de ponta a ponta.",
+    prioridade=Prioridade.ALTA, # Prioridade Alta
+    criterio_aceitacao="Uso de TLS 1.3 e conformidade básica com LGPD/PCI-DSS."
+))
