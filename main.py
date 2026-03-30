@@ -87,3 +87,10 @@ srs.adicionar_rf(RequisitoFuncional(
     pre_condicao="Estar logado no sistema",
     pos_condicao="Visualização dos itens disponíveis para compra"
 ))
+srs.adicionar_rf(RequisitoFuncional(
+    id="RF-03", nome="Detecção de Unidade (GPS)",
+    descricao="Detectar a localização do usuário para identificar a unidade da FIAP.",
+    prioridade=Prioridade.MEDIA, ator="Cliente",
+    pre_condicao="Permissão de GPS concedida no app",
+    pos_condicao="Cardápio filtrado para a unidade atual"
+))
