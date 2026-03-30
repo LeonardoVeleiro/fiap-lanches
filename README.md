@@ -14,17 +14,20 @@ Dataclasses
 Enum
 Google Colab (execução do projeto)
 GitHub (versionamento)
+
 Como Executar
 Copie o código para o Google Colab ou um ambiente Python local
 Execute todas as células ou o script
 Ao final, execute:
 srs.relatorio()
 O sistema exibirá o relatório completo dos requisitos
+
 Estrutura do Projeto
 Prioridade: Enum para classificação de prioridade
 RequisitoFuncional: Estrutura dos requisitos funcionais
 RequisitoNaoFuncional: Estrutura dos requisitos não funcionais
 SRS: Classe principal que gerencia os requisitos e gera relatórios
+
 Funcionalidades Implementadas
 Cadastro e autenticação de usuários via RM
 Visualização de cardápio categorizado
@@ -37,24 +40,21 @@ Controle de acesso (RBAC)
 Relatórios de vendas
 Configuração de horário de funcionamento
 Organização de pedidos por ordem de chegada (FIFO)
-Demonstração (prints / GIFs / link para vídeo)
 
-Adicione aqui:
+Demonstração
 
-Prints do código rodando
-GIF mostrando execução
-Link para vídeo demonstrativo (YouTube ou Drive)
+Entrou como aluno, pediu o prato feito e pagou com vale alimentação: https://prnt.sc/V0j9sA_ZLlB7
+Entrou como gerente, visualizou a fila de pedidos e anunciou o pedido 2, como pronto: https://prnt.sc/3yzqvxuGvEJu
+Entrou como gerente, e pausou um dos itens do carpadio (o prato feito): https://prnt.sc/iisDFRr1H0Hl
+Entrada como aluno, pediu dois itens e pagou com pix: https://prnt.sc/O32g9APKsxji
 
-Exemplo:
 
-Vídeo: (coloque aqui o link)
-Prints: (adicione imagens no repositório)
 Integrantes do Grupo
 Agatha Cassari
 Gustavo Cheng 
 Leonardo Veleiro
 Sara Barbosa
-Links (Miro, repositório, vídeo)
-Repositório GitHub: (link aqui)
-Miro: (link aqui)
-Vídeo de demonstração: (link aqui)
+
+Links 
+Miro: https://miro.com/app/board/uXjVGwHZNKQ=/
+
