@@ -133,5 +133,14 @@ srs.adicionar_rf(RequisitoFuncional(
     pos_condicao="Validação de permissão concedida ou negada"
 ))
 
+srs.adicionar_rf(RequisitoFuncional(
+    id="RF-09", nome="Relatórios Gerenciais",
+    descricao="Armazenar dados e gerar relatórios de desempenho e vendas diárias.",
+    prioridade=Prioridade.BAIXA, ator="Gerente",
+    pre_condicao="Existência de pedidos finalizados no banco",
+    pos_condicao="Exibição de gráficos e métricas de venda"
+))
+
+
 
 
