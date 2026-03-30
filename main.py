@@ -185,3 +185,6 @@ srs.adicionar_rnf(RequisitoNaoFuncional(
     prioridade=Prioridade.ALTA, # Prioridade Alta
     criterio_aceitacao="Teste de carga validando 5.000 requisições simultâneas sem timeout."
 ))
+
+# --- Gerando o Relatório Final ---
+srs.relatorio()
