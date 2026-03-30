@@ -31,7 +31,7 @@ Com isso, o sistema atua em duas frentes fundamentais:
 
 O projeto está arquitetado em dois módulos principais distintos, separando a documentação técnica da aplicação funcional:
 
-### 1. Sistema Funcional - Versão 1.0 (`main.py`)
+### 1. Sistema Funcional - Versão 1.0 (`app.py`)
 Este é o núcleo do aplicativo, simulado via terminal interativo. Ele é responsável por orquestrar a interação com os usuários e a persistência de dados.
 * **Módulo Cliente:** Interface onde o aluno ou colaborador insere o RM, visualiza o cardápio (filtrado por disponibilidade), adiciona itens ao carrinho e realiza o checkout.
 * **Módulo Cantina (Gerente):** Painel administrativo protegido por senha para visualização da fila de preparo (FIFO) e controle em tempo real do estoque (ativar/desativar pratos).
