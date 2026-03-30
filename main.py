@@ -117,5 +117,15 @@ srs.adicionar_rf(RequisitoFuncional(
     pos_condicao="Cliente alertado em seu dispositivo"
 ))
 
+srs.adicionar_rf(RequisitoFuncional(
+    id="RF-07", nome="Gestão de Cardápio (CRUD)",
+    descricao="Módulo para gerentes adicionarem, alterarem ou removerem pratos permanentemente.",
+    prioridade=Prioridade.ALTA, ator="Gerente",
+    pre_condicao="Acesso ao painel administrativo",
+    pos_condicao="Banco de dados do cardápio atualizado"
+))
+
+
+
 
 
