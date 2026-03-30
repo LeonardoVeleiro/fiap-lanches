@@ -70,3 +70,49 @@ def modulo_cliente(dados):
         dados["pedidos"].append(novo_pedido)
         salvar_banco(dados)
         print(f"\n🔔 Pagamento Aprovado! Pedido #{novo_pedido['id']} enviado para a cozinha (RF06).")
+
+# --- MÓDULO DA CANTINA (GERENTE) ---
+def modulo_cantina(dados):
+    print("\n=== ÁREA DO GERENTE ===")
+    senha = input("Senha de acesso (RF08): ")
+    if senha != "admin":
+        print("❌ Acesso Negado.")
+        return
+
+    while True:
+        print("\n1. Visualizar Fila de Pedidos (FIFO) (RF11)")
+        print("2. Pausar/Ativar Item no Cardápio (RF04)")
+        print("3. Voltar")
+        opc = input("Escolha: ")
+
+        if opc == '1':
+            pendentes = [p for p in dados["pedidos"] if p["status"] == "Na Fila"]
+            print("\n--- FILA DA COZINHA (Ordem de Chegada) ---")
+            if not pendentes:
+                print("Nenhum pedido pendente.")
+            for p in pendentes: # Mostra em ordem cronológica (FIFO)
+                print(f"[{p['hora']}] Pedido #{p['id']} (RM {p['rm']}) - Itens: {', '.join(p['itens'])}")
+
+            if pendentes:
+                baixar = input("\nDigite o ID do pedido pronto (ou 0 para pular): ")
+                for p in dados["pedidos"]:
+                    if str(p["id"]) == baixar:
+                        p["status"] = "Pronto"
+                        salvar_banco(dados)
+                        print(f"✅ Pedido #{baixar} finalizado!")
+
+        elif opc == '2':
+            print("\n--- Controle de Estoque ---")
+            for k, v in dados["cardapio"].items():
+                status = "🟢 Disponível" if v["disponivel"] else "🔴 Esgotado"
+                print(f"[{k}] {v['nome']} - {status}")
+
+            id_item = input("\nDigite o ID do item para alterar (ou 0 para voltar): ")
+            if id_item in dados["cardapio"]:
+                estado_atual = dados["cardapio"][id_item]["disponivel"]
+                dados["cardapio"][id_item]["disponivel"] = not estado_atual
+                salvar_banco(dados)
+                print("✅ Estoque atualizado com sucesso!")
+
+        elif opc == '3':
+            break
