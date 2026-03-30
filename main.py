@@ -116,5 +116,13 @@ srs.adicionar_rnf(RequisitoNaoFuncional(
     "Uso de TLS"
 ))
 
+srs.adicionar_rf(RequisitoFuncional(
+    "RF-04", "Histórico de pedidos",
+    "Permitir que o usuário visualize pedidos anteriores.",
+    Prioridade.MEDIA, "Cliente",
+    "Usuário logado",
+    "Histórico exibido"
+))
+
 # ---- Gerar relatório ----
 srs.relatorio()
