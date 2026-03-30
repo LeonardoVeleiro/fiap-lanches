@@ -149,4 +149,11 @@ srs.adicionar_rf(RequisitoFuncional(
     pos_condicao="App bloqueia novos pedidos fora do horário estipulado"
 ))
 
+srs.adicionar_rf(RequisitoFuncional(
+    id="RF-11", nome="Fila de Pedidos (FIFO - KDS)",
+    descricao="Exibir os pedidos para a cozinha organizados estritamente por ordem de chegada.",
+    prioridade=Prioridade.ALTA, ator="Gerente / Cozinha",
+    pre_condicao="Existência de pedidos pagos e pendentes",
+    pos_condicao="Cozinha visualiza a ordem correta de preparo"
+))
 
