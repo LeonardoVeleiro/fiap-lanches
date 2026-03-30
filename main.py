@@ -164,3 +164,10 @@ srs.adicionar_rnf(RequisitoNaoFuncional(
     prioridade=Prioridade.MEDIA, # Prioridade Média
     criterio_aceitacao="Teste de usabilidade com usuário concluindo a tarefa em < 15 segundos."
 ))
+
+srs.adicionar_rnf(RequisitoNaoFuncional(
+    id="RNF-02", categoria="Desempenho",
+    descricao="A tela da cozinha (KDS) deve atualizar em menos de 2 segundos após o pagamento.",
+    prioridade=Prioridade.MEDIA, # Prioridade Média
+    criterio_aceitacao="Latência medida via WebSockets inferior a 2000ms."
+))
