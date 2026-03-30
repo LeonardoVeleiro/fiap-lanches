@@ -106,11 +106,11 @@ srs.adicionar_rf(RequisitoFuncional(
 ))
 
 srs.adicionar_rf(RequisitoFuncional(
-    "RF-05", "Cancelamento de pedido",
-    "Permitir cancelar pedidos antes do preparo.",
-    Prioridade.MEDIA, "Cliente",
+    "RF-06", "Notificações de Pedido",
+    "Enviar notificações do status do pagamento e preparo do pedido.",
+    Prioridade.MEDIA, "Sistema",
     "Pedido realizado",
-    "Pedido cancelado"
+    "Usuário recebe atualização do status"
 ))
 
 # ---- Requisitos Não Funcionais ----
