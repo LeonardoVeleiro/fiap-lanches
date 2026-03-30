@@ -125,7 +125,13 @@ srs.adicionar_rf(RequisitoFuncional(
     pos_condicao="Banco de dados do cardápio atualizado"
 ))
 
-
+srs.adicionar_rf(RequisitoFuncional(
+    id="RF-08", nome="Controle de Acesso (RBAC)",
+    descricao="Implementar níveis de acesso para garantir que apenas gerentes façam modificações sensíveis.",
+    prioridade=Prioridade.ALTA, ator="Sistema",
+    pre_condicao="Tentativa de acesso a rotas restritas",
+    pos_condicao="Validação de permissão concedida ou negada"
+))
 
 
 
