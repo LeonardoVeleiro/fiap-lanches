@@ -73,3 +73,10 @@ srs = SRS(
 )
 
 print("Iniciando a carga de requisitos...\n")
+srs.adicionar_rf(RequisitoFuncional(
+    id="RF-01", nome="Autenticação com RM",
+    descricao="Permitir a autenticação de usuários utilizando o RM da instituição.",
+    prioridade=Prioridade.ALTA, ator="Cliente / Gerente",
+    pre_condicao="Usuário possuir vínculo ativo com a FIAP",
+    pos_condicao="Acesso liberado às funcionalidades do app"
+))
