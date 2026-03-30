@@ -116,3 +116,22 @@ def modulo_cantina(dados):
 
         elif opc == '3':
             break
+            
+# --- MENU PRINCIPAL ---
+def main():
+    dados = carregar_banco()
+    while True:
+        print("\n" + "="*30)
+        print("🍔 FIAP LANCHES - TERMINAL")
+        print("="*30)
+        print("1. Sou Aluno / Colaborador")
+        print("2. Sou Gerente da Cantina")
+        print("3. Sair")
+
+        op = input("Opção: ")
+        if op == '1': modulo_cliente(dados)
+        elif op == '2': modulo_cantina(dados)
+        elif op == '3': break
+
+if __name__ == "__main__":
+    main()
