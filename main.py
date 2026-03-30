@@ -124,5 +124,12 @@ srs.adicionar_rf(RequisitoFuncional(
     "Histórico exibido"
 ))
 
+srs.adicionar_rf(RequisitoFuncional(
+    "RF-05", "Cancelamento de pedido",
+    "Permitir cancelar pedidos antes do preparo.",
+    Prioridade.MEDIA, "Cliente",
+    "Pedido realizado",
+    "Pedido cancelado"
+))
 # ---- Gerar relatório ----
 srs.relatorio()
