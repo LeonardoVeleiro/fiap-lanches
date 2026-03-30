@@ -141,6 +141,12 @@ srs.adicionar_rf(RequisitoFuncional(
     pos_condicao="Exibição de gráficos e métricas de venda"
 ))
 
-
+srs.adicionar_rf(RequisitoFuncional(
+    id="RF-10", nome="Configuração de Horário",
+    descricao="Configurar o horário de funcionamento (abertura e fechamento) da cantina.",
+    prioridade=Prioridade.MEDIA, ator="Gerente",
+    pre_condicao="Acesso às configurações da loja",
+    pos_condicao="App bloqueia novos pedidos fora do horário estipulado"
+))
 
 
