@@ -47,5 +47,4 @@ if not st.session_state["logado"]:
 else:
     usuario_logado = st.session_state["usuario"]
     st.sidebar.success(f"Logado como: {usuario_logado['nome']}")
-    st.write("Login realizado com sucesso. As telas de cliente e gerente serão adicionadas nas
-próximas etapas.")
+    st.write("Login realizado com sucesso. As telas de cliente e gerente serão adicionadas nas próximas etapas.")
