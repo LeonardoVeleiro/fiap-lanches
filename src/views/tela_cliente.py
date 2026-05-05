@@ -1,53 +1,31 @@
 import streamlit as st
+from services.cardapio_service import carregar_cardapio
 
-from services.pedido_service import (
-   calcular_total_carrinho,
-   finalizar_pedido,
-   filtrar_pedidos_usuario
-)
 
-#Assinatura:
-def exibir_tela_cliente(carregar_cardapio, carregar_pedidos, salvar_pedidos):
-   usuario_logado = st.session_state["usuario"]
+def exibir_tela_cliente():
+    st.title("Área do Cliente")
+    st.subheader("Cardápio")
 
-#Cardápio e pesquisa:
-cardapio = carregar_cardapio()
+    cardapio = carregar_cardapio()
 
-pesquisa = st.text_input(
-   "",
-   placeholder="Ex: coxinha, pastel, refrigerante..."
-)
+    if not cardapio:
+        st.warning("Nenhum item cadastrado no cardápio.")
+        return
 
-cardapio_filtrado = [
-   item for item in cardapio
-   if pesquisa.lower() in item["nome"].lower()
-]
+    pesquisa = st.text_input(
+        "",
+        placeholder="Ex: coxinha, pastel, refrigerante..."
+    )
 
-#Carrinho:
-if "carrinho" not in st.session_state or not isinstance(st.session_state["carrinho"], dict):
-   st.session_state["carrinho"] = {}
+    for item in cardapio:
+        nome = item["nome"]
+        preco = item["preco"]
+        disponivel = item["disponivel"]
 
-#Finalizar pedido:
-if st.button("Finalizar Pedido"):
-   pedidos = carregar_pedidos()
+        if pesquisa.lower() in nome.lower():
+            st.write(f"**{nome}** - R$ {preco:.2f}")
 
-   pedidos_atualizados, total, erro = finalizar_pedido(
-       st.session_state["carrinho"],
-       pedidos,
-       usuario_logado,
-       forma_pagamento
-   )
-
-   if erro:
-       st.error(erro)
-   else:
-       salvar_pedidos(pedidos_atualizados)
-
-       st.success("Pagamento aprovado! Pedido enviado para a fila.")
-       st.balloons()
-       st.session_state["carrinho"] = {}
-       st.rerun()
-
-#Meus pedidos:
-pedidos = carregar_pedidos()
-meus_pedidos = filtrar_pedidos_usuario(pedidos, usuario_logado)
+            if disponivel:
+                st.success("Disponível")
+            else:
+                st.error("Indisponível")
