@@ -138,7 +138,9 @@ RM: 000000
 Senha: 1234
 Perfil: gerente
 
-## 📁 Estrutura do Projeto 
+## 📁 Estrutura do Projeto
+
+```text
 fiap-lanches/
 │
 ├── README.md
@@ -149,8 +151,7 @@ fiap-lanches/
 │   └── diagramas/
 │       ├── Diagrama de casos de uso.jpeg
 │       ├── Diagrama de atividades.jpeg
-│       ├── Diagrama de classes.jpeg
-│       └── Diagrama de sequencias.jpeg
+│       └── Diagrama de classes.jpeg
 │
 └── src/
     ├── app.py
@@ -167,6 +168,7 @@ fiap-lanches/
     │
     ├── services/
     │   ├── banco_service.py
+    │   ├── cardapio_service.py
     │   ├── pedido_service.py
     │   └── gerente_service.py
     │
@@ -303,12 +305,29 @@ Dessa forma, o sistema reduz a complexidade visual, melhora a eficiência de uso
 - **NIELSEN, Jakob — 10 Heurísticas de Usabilidade para Design de Interface**  
   Referência para decisões relacionadas à eficiência de uso, simplicidade da interface e adaptação do sistema a diferentes perfis de usuário.
 
+## 📊 Diagramas UML
+
+### Diagrama de Casos de Uso
+
+![Diagrama de Casos de Uso](docs/diagramas/Casos%20de%20Uso.jpeg)
+
+### Diagrama de Atividades
+
+![Diagrama de Atividades](docs/diagramas/Diagrama%20de%20atividades.jpeg)
+
+### Diagrama de Classes
+
+![Diagrama de Classes](docs/diagramas/Diagrama%20de%20classes.jpeg)
+
+### Diagrama de Sequência
+
+![Diagrama de Sequência](docs/diagramas/Diagrama%20de%20sequ%C3%AAncia.jpeg)
 
 ## 👥 Integrantes do Grupo
-Agatha Cassari
-Gustavo Cheng
-Leonardo Veleiro
-Sara Barbosa
+- Agatha Cassari
+- Gustavo Cheng
+- Leonardo Veleiro
+- Sara Barbosa
 
 ## 📸 Demonstração
 
