@@ -183,7 +183,7 @@ fiap-lanches/
         ├── usuarios.json
         ├── cardapio.json
         └── pedidos.json
-
+```
 ## ✅ Funcionalidades Implementadas
 
 ### Cadastro e Login
