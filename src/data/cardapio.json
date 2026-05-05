@@ -3,7 +3,7 @@
         "id": 1,
         "nome": "Coxinha",
         "preco": 6.5,
-        "disponivel": true
+        "disponivel": false
     },
     {
         "id": 2,

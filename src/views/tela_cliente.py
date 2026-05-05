@@ -18,8 +18,6 @@ def exibir_tela_cliente():
     aba1, aba2 = st.tabs(["Cardápio", "Meus Pedidos"])
 
     with aba1:
-        st.subheader("Cardápio")
-
         cardapio = carregar_cardapio()
 
         if not cardapio:
@@ -143,7 +141,6 @@ def exibir_tela_cliente():
                 st.rerun()
 
     with aba2:
-        st.subheader("Meus Pedidos")
 
         pedidos = carregar_pedidos()
         meus_pedidos = filtrar_pedidos_usuario(pedidos, usuario_logado)

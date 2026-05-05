@@ -15,10 +15,9 @@ st.set_page_config(
     layout="wide"
 )
 
-aplicar_estilo()
-
 st.title("FIAP Lanches")
 
+aplicar_estilo()
 
 if "logado" not in st.session_state:
     st.session_state["logado"] = False
@@ -55,4 +54,9 @@ else:
         exibir_tela_cliente()
 
     elif usuario_logado["perfil"] == "gerente":
-        st.info("Painel do gerente será implementado nesta etapa.")
+        exibir_tela_gerente(
+            carregar_pedidos,
+            salvar_pedidos,
+            carregar_cardapio,
+            salvar_cardapio
+        )
