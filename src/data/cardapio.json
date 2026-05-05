@@ -1,0 +1,278 @@
+[
+    {
+        "id": 1,
+        "nome": "Coxinha",
+        "preco": 6.5,
+        "disponivel": false
+    },
+    {
+        "id": 2,
+        "nome": "Pão de Queijo",
+        "preco": 5.0,
+        "disponivel": false
+    },
+    {
+        "id": 3,
+        "nome": "Kibe",
+        "preco": 6.5,
+        "disponivel": false
+    },
+    {
+        "id": 4,
+        "nome": "Pastel de Carne",
+        "preco": 8.0,
+        "disponivel": true
+    },
+    {
+        "id": 5,
+        "nome": "Pastel de Queijo",
+        "preco": 7.5,
+        "disponivel": true
+    },
+    {
+        "id": 6,
+        "nome": "Kibe",
+        "preco": 6.5,
+        "disponivel": true
+    },
+    {
+        "id": 7,
+        "nome": "Esfiha de Carne",
+        "preco": 8.0,
+        "disponivel": true
+    },
+    {
+        "id": 8,
+        "nome": "Esfiha de Frango",
+        "preco": 8.0,
+        "disponivel": true
+    },
+    {
+        "id": 9,
+        "nome": "Hambúrguer Simples",
+        "preco": 15.0,
+        "disponivel": true
+    },
+    {
+        "id": 10,
+        "nome": "Hambúrguer Duplo",
+        "preco": 20.0,
+        "disponivel": true
+    },
+    {
+        "id": 11,
+        "nome": "X-Burguer",
+        "preco": 18.0,
+        "disponivel": true
+    },
+    {
+        "id": 12,
+        "nome": "X-Salada",
+        "preco": 19.0,
+        "disponivel": true
+    },
+    {
+        "id": 13,
+        "nome": "X-Bacon",
+        "preco": 22.0,
+        "disponivel": true
+    },
+    {
+        "id": 14,
+        "nome": "X-Tudo",
+        "preco": 25.0,
+        "disponivel": true
+    },
+    {
+        "id": 15,
+        "nome": "Lata Fanta Uva",
+        "preco": 6.0,
+        "disponivel": true
+    },
+    {
+        "id": 16,
+        "nome": "Lata Coca-Cola",
+        "preco": 6.0,
+        "disponivel": true
+    },
+    {
+        "id": 17,
+        "nome": "Lata Guaraná",
+        "preco": 6.0,
+        "disponivel": true
+    },
+    {
+        "id": 18,
+        "nome": "Lata Fanta Laranja",
+        "preco": 6.0,
+        "disponivel": true
+    },
+    {
+        "id": 19,
+        "nome": "Lata Sprite",
+        "preco": 6.0,
+        "disponivel": true
+    },
+    {
+        "id": 20,
+        "nome": "Lata Pepsi",
+        "preco": 6.0,
+        "disponivel": true
+    },
+    {
+        "id": 21,
+        "nome": "Red Bull Tradicional",
+        "preco": 12.0,
+        "disponivel": true
+    },
+    {
+        "id": 22,
+        "nome": "Red Bull Melancia",
+        "preco": 12.0,
+        "disponivel": true
+    },
+    {
+        "id": 23,
+        "nome": "Red Bull Tropical",
+        "preco": 12.0,
+        "disponivel": true
+    },
+    {
+        "id": 24,
+        "nome": "Red Bull Zero",
+        "preco": 13.0,
+        "disponivel": true
+    },
+    {
+        "id": 25,
+        "nome": "Red Bull Pomello",
+        "preco": 10.0,
+        "disponivel": true
+    },
+    {
+        "id": 26,
+        "nome": "Chocolate ao Leite",
+        "preco": 5.5,
+        "disponivel": true
+    },
+    {
+        "id": 27,
+        "nome": "Chocolate Meio Amargo",
+        "preco": 6.0,
+        "disponivel": true
+    },
+    {
+        "id": 28,
+        "nome": "Chocolate Branco",
+        "preco": 6.0,
+        "disponivel": true
+    },
+    {
+        "id": 29,
+        "nome": "Chocolate com Amendoim",
+        "preco": 6.5,
+        "disponivel": true
+    },
+    {
+        "id": 30,
+        "nome": "Cookie Recheado Chocolate",
+        "preco": 7.0,
+        "disponivel": true
+    },
+    {
+        "id": 31,
+        "nome": "Cookie Recheado Nutella",
+        "preco": 8.0,
+        "disponivel": true
+    },
+    {
+        "id": 32,
+        "nome": "Cookie Recheado Doce de Leite",
+        "preco": 7.5,
+        "disponivel": true
+    },
+    {
+        "id": 33,
+        "nome": "Bala de Goma",
+        "preco": 3.0,
+        "disponivel": true
+    },
+    {
+        "id": 34,
+        "nome": "Chiclete Hortelã",
+        "preco": 2.5,
+        "disponivel": true
+    },
+    {
+        "id": 35,
+        "nome": "Chiclete Tutti-Frutti",
+        "preco": 2.5,
+        "disponivel": true
+    },
+    {
+        "id": 36,
+        "nome": "Batata Chips",
+        "preco": 7.0,
+        "disponivel": true
+    },
+    {
+        "id": 37,
+        "nome": "Doritos",
+        "preco": 8.5,
+        "disponivel": true
+    },
+    {
+        "id": 38,
+        "nome": "Fandangos",
+        "preco": 6.5,
+        "disponivel": true
+    },
+    {
+        "id": 39,
+        "nome": "Água Mineral",
+        "preco": 3.5,
+        "disponivel": true
+    },
+    {
+        "id": 40,
+        "nome": "Água com Gás",
+        "preco": 4.5,
+        "disponivel": true
+    },
+    {
+        "id": 41,
+        "nome": "Suco de Caixa",
+        "preco": 5.0,
+        "disponivel": true
+    },
+    {
+        "id": 42,
+        "nome": "Suco Natural Laranja",
+        "preco": 8.0,
+        "disponivel": true
+    },
+    {
+        "id": 43,
+        "nome": "Suco Natural Limão",
+        "preco": 8.0,
+        "disponivel": true
+    },
+    {
+        "id": 44,
+        "nome": "Suco Natural Maracujá",
+        "preco": 9.0,
+        "disponivel": true
+    },
+    {
+        "id": 45,
+        "nome": "Café Expresso",
+        "preco": 4.0,
+        "disponivel": true
+    },
+    {
+        "id": 46,
+        "nome": "Café com Leite",
+        "preco": 5.0,
+        "disponivel": true
+    }
+]
