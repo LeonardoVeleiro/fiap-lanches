@@ -51,17 +51,8 @@ else:
         st.session_state["carrinho"] = {}
         st.rerun()
 
-    if usuario_logado["perfil"] == "gerente":
-        exibir_tela_gerente(
-            carregar_pedidos,
-            salvar_pedidos,
-            carregar_cardapio,
-            salvar_cardapio
-        )
+    if usuario_logado["perfil"] == "cliente":
+        exibir_tela_cliente()
 
-    else:
-        exibir_tela_cliente(
-            carregar_cardapio,
-            carregar_pedidos,
-            salvar_pedidos
-        )
+    elif usuario_logado["perfil"] == "gerente":
+        st.info("Painel do gerente será implementado nesta etapa.")
