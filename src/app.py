@@ -15,9 +15,33 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("FIAP Lanches")
-
 aplicar_estilo()
+
+st.html("""
+<div style="display:flex; align-items:center; justify-content:center; gap:15px; margin-bottom:10px;">
+    <div style="
+        width:80px;
+        height:80px;
+        background-color:#ED145B;
+        color:white;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:Light;
+        border-radius:8px;
+        font-size:80px;
+        font-family:Arial;
+    ">
+        F
+    </div>
+
+    <div>
+        <h2 style="margin:0; letter-spacing:1px; color:white; font-family: Arial; font-size:40px;">
+            FIAP Lanches
+        </h2>
+    </div>
+</div>
+""")
 
 if "logado" not in st.session_state:
     st.session_state["logado"] = False
