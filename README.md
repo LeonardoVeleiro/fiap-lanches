@@ -378,3 +378,5 @@ Dessa forma, o sistema reduz a complexidade visual, melhora a eficiência de uso
 ## 🔗 Links 
 
 🎨 Board no Miro (Diagramas e Planejamento): [Acessar Miro](https://miro.com/app/board/uXjVGwHZNKQ=/?share_link_id=717889814021)
+🎥 Vídeo no YouTube (Demonstração do Projeto): [Assistir vídeo](https://www.youtube.com/watch?si=NtN_UA9VQvPr9ULT&v=m__FHAk--Tg&feature=youtu.be)
+
