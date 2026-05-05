@@ -224,60 +224,25 @@ cadastrar novo produto no cardápio.
 
 ### Casos de Uso
 
-Código
-Caso de Uso
-Status
-UC01
-Cadastrar usuário
-✅ Implementado
-UC02
-Fazer login
-✅ Implementado
-UC03
-Consultar cardápio
-✅ Implementado
-UC04
-Pesquisar item
-✅ Implementado
-UC05
-Fazer pedido
-✅ Implementado
-UC06
-Acompanhar status do pedido
-✅ Implementado
-UC07
-Visualizar fila de pedidos FIFO
-✅ Implementado
-UC08
-Atualizar status do pedido
-✅ Implementado
-UC09
-Gerenciar cardápio
-✅ Implementado
-UC10
-Alterar disponibilidade do produto
-✅ Implementado
-UC11
-Alterar preço do produto
-✅ Implementado
-UC12
-Cadastrar produto
-✅ Implementado
-UC13
-Gerar relatórios
-❌ Não implementado
-UC14
-Configurar horário de funcionamento
-❌ Não implementado
-UC15
-Identificar unidade por geolocalização
-❌ Não implementado
-UC16
-Processar pagamento
-🚧 Parcial / Simulado
-UC17
-Repetir pedido anterior
-❌ Não implementado
+| Código | Caso de Uso | Status |
+|---|---|---|
+| UC01 | Cadastrar usuário | ✅ Implementado |
+| UC02 | Fazer login | ✅ Implementado |
+| UC03 | Consultar cardápio | ✅ Implementado |
+| UC04 | Pesquisar item | ✅ Implementado |
+| UC05 | Fazer pedido | ✅ Implementado |
+| UC06 | Acompanhar status do pedido | ✅ Implementado |
+| UC07 | Visualizar fila de pedidos FIFO | ✅ Implementado |
+| UC08 | Atualizar status do pedido | ✅ Implementado |
+| UC09 | Gerenciar cardápio | ✅ Implementado |
+| UC10 | Alterar disponibilidade do produto | ✅ Implementado |
+| UC11 | Alterar preço do produto | ✅ Implementado |
+| UC12 | Cadastrar produto | ✅ Implementado |
+| UC13 | Gerar relatórios | ❌ Não implementado |
+| UC14 | Configurar horário de funcionamento | ❌ Não implementado |
+| UC15 | Identificar unidade por geolocalização | ❌ Não implementado |
+| UC16 | Processar pagamento | 🟡 Parcial / Simulado |
+| UC17 | Repetir pedido anterior | ❌ Não implementado |
 
 ## ⭐ Diferencial do Projeto
 
