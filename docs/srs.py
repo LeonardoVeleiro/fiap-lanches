@@ -186,5 +186,13 @@ srs.adicionar_rnf(RequisitoNaoFuncional(
     criterio_aceitacao="Teste de carga validando 5.000 requisições simultâneas sem timeout."
 ))
 
+srs.adicionar_rnf(RequisitoNaoFuncional(
+    id="RNF-05",
+    categoria="Persistência de Dados",
+    descricao="O sistema deve armazenar os dados da aplicação em arquivos JSON, incluindo usuários, cardápio e pedidos.",
+    prioridade=Prioridade.ALTA,
+    criterio_aceitacao="Os dados devem permanecer salvos nos arquivos JSON mesmo após o encerramento e reinício da aplicação."
+))
+
 # --- Gerando o Relatório Final ---
 srs.relatorio()

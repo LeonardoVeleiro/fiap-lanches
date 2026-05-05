@@ -1,4 +1,16 @@
 from models.pagamento_model import Pagamento
+from services.banco_service import carregar_json, salvar_json
+from models.pagamento_model import Pagamento
+
+ARQUIVO_PEDIDOS = "src/data/pedidos.json"
+
+
+def carregar_pedidos():
+    return carregar_json(ARQUIVO_PEDIDOS, [])
+
+
+def salvar_pedidos(pedidos):
+    salvar_json(ARQUIVO_PEDIDOS, pedidos)
 
 
 def calcular_total_carrinho(carrinho):

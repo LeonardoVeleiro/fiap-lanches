@@ -9,13 +9,13 @@
         "id": 2,
         "nome": "Pão de Queijo",
         "preco": 5.0,
-        "disponivel": false
+        "disponivel": true
     },
     {
         "id": 3,
         "nome": "Kibe",
         "preco": 6.5,
-        "disponivel": false
+        "disponivel": true
     },
     {
         "id": 4,
