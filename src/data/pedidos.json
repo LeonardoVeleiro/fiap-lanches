@@ -1,1 +1,36 @@
-[]
+[
+    {
+        "id": 1,
+        "usuario": "Sara Barbosa da Silva",
+        "itens": [
+            {
+                "id": 1,
+                "nome": "Coxinha",
+                "preco": 6.5,
+                "quantidade": 1,
+                "subtotal": 6.5
+            },
+            {
+                "id": 2,
+                "nome": "Pão de Queijo",
+                "preco": 5.0,
+                "quantidade": 1,
+                "subtotal": 5.0
+            },
+            {
+                "id": 3,
+                "nome": "Kibe",
+                "preco": 6.5,
+                "quantidade": 1,
+                "subtotal": 6.5
+            }
+        ],
+        "total": 18.0,
+        "pagamento": {
+            "forma_pagamento": "Cartão de Débito",
+            "valor": 18.0,
+            "status": "Aprovado"
+        },
+        "status": "Na fila"
+    }
+]
