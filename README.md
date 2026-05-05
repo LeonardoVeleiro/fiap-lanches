@@ -309,24 +309,6 @@ Dessa forma, o sistema reduz a complexidade visual, melhora a eficiência de uso
 
 ### Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](docs/diagramas/Casos%20de%20Uso.jpeg)
-
-### Diagrama de Atividades
-
-![Diagrama de Atividades](docs/diagramas/Diagrama%20de%20atividades.jpeg)
-
-### Diagrama de Classes
-
-![Diagrama de Classes](docs/diagramas/Diagrama%20de%20classes.jpeg)
-
-### Diagrama de Sequência
-
-![Diagrama de Sequência](docs/diagramas/Diagrama%20de%20sequ%C3%AAncia.jpeg)
-
-## 📊 Diagramas UML
-
-### Diagrama de Casos de Uso
-
 ![Diagrama de Casos de Uso](docs/diagramas/caos_uso.jpeg)
 
 ### Diagrama de Atividades
@@ -346,8 +328,6 @@ Dessa forma, o sistema reduz a complexidade visual, melhora a eficiência de uso
 - Gustavo Cheng
 - Leonardo Veleiro
 - Sara Barbosa
-
-## 📸 Demonstração
 
 ## 📸 Prints do Sistema
 
