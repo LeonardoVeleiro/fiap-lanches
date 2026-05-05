@@ -304,6 +304,24 @@ Dessa forma, o sistema reduz a complexidade visual, melhora a eficiência de uso
   Referência para decisões relacionadas à eficiência de uso, simplicidade da interface e adaptação do sistema a diferentes perfis de usuário.
 
 
+## 📊 Diagramas UML
+
+### Diagrama de Casos de Uso
+
+![Diagrama de Casos de Uso](docs/diagramas/caos_uso.jpeg)
+
+### Diagrama de Atividades
+
+![Diagrama de Atividades](docs/diagramas/diagrama_atividades.jpeg)
+
+### Diagrama de Classes
+
+![Diagrama de Classes](docs/diagramas/diagrama_classes.jpeg)
+
+### Diagrama de Sequência
+
+![Diagrama de Sequência](docs/diagramas/diagrama_sequencia.jpeg)
+
 ## 👥 Integrantes do Grupo
 Agatha Cassari
 Gustavo Cheng
@@ -312,11 +330,32 @@ Sara Barbosa
 
 ## 📸 Demonstração
 
-🎓 Visão do Aluno (Pedido e Pagamento VA): Entrou como aluno, pediu e pagou com vale-alimentação. 👉 Ver imagem
-🎓 Visão do Aluno (Múltiplos Itens e PIX): Entrada como aluno, pediu dois itens e pagou com PIX. 👉 Ver imagem
-🍔 Visão da Gerência (KDS e Baixa de Fila): Entrou como gerente, visualizou a fila de pedidos e anunciou o pedido #2 como pronto. 👉 Ver imagem
-🍔 Visão da Gerência (Gestão de Estoque): Entrou como gerente e pausou um dos itens do cardápio que esgotou no dia. 👉 Ver imagem
+## 📸 Prints do Sistema
+
+### Tela de Login
+
+![Tela de Login](docs/prints/tela_login.png)
+
+### Tela de Cadastro
+
+![Tela de Cadastro](docs/prints/tela_cadastro.png)
+
+### Tela do Cliente
+
+![Tela do Cliente 1](docs/prints/tela_cliente1.png)
+
+![Tela do Cliente 2](docs/prints/tela_cliente2.png)
+
+![Tela do Cliente 3](docs/prints/tela_cliente3.png)
+
+### Tela do Gerente
+
+![Tela do Gerente 1](docs/prints/tela_gerente1.png)
+
+![Tela do Gerente 2](docs/prints/tela_gerente2.png)
+
+![Tela do Gerente 3](docs/prints/tela_gerente3.png)
 
 ## 🔗 Links 
 
-🎨 Board no Miro (Diagramas e Planejamento): Acessar Miro
+🎨 Board no Miro (Diagramas e Planejamento): [Acessar Miro](https://miro.com/app/board/uXjVGwHZNKQ=/?share_link_id=717889814021)
